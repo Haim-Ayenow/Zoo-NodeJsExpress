@@ -14,4 +14,4 @@ AnimalRoute.post(`/`,addAnimal);
 AnimalRoute.put(`/:id`,UpdateAnimal);
 AnimalRoute.delete(`/:id`,DeleteAnimal);
 
-module.exports = AnimalRoute
+module.exports = AnimalRoute;
