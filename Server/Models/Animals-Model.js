@@ -10,4 +10,4 @@ Brand:{type:String,required:true}
 ,{timeStamps:true})
 
 
-module.exports=mongoose.Model(`Animal`,Animal)
+module.exports=mongoose.model(`Animal`,Animal)

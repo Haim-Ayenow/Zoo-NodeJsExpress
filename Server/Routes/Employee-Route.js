@@ -1,12 +1,12 @@
 const EmployeeRoute= require(`express`).Router();
 
 const{
-    getEmployees,
+    GetEmployees,
     GetEmployeeById,
     addEmployee,
     UpdateEmployee,
     DeleteEmployee,
-    GetEmployees
+    
 } = require(`../Controllers/Employee-ctrl`);
 
 EmployeeRoute.get(`/`,GetEmployees);

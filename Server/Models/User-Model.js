@@ -9,4 +9,4 @@ PhoneNumber:{type:String,required:true}
 ,{timeStamps:true})
 
 
-module.exports=mongoose.Model(`Employee`,Employee)
+module.exports=mongoose.model(`Employee`,Employee)

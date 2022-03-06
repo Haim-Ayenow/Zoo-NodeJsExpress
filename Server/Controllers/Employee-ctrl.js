@@ -54,7 +54,7 @@ module.exports = {
   },
 
   DeleteEmployee:(req,res)=>{
-      Employees.FindByIdAndDelete(req.params.id)
+      Employees.findByIdAndDelete(req.params.id)
       .then(()=>{
           res.status(200).json({
               massage:`employee deleted successfully`,
