@@ -6,7 +6,7 @@ const{
     addAnimal,
     UpdateAnimal,
     DeleteAnimal,
-} = require(`../Controllers/Animal-Ctrl`);
+} = require(`../Controllers/Animals-ctrl`);
 
 AnimalRoute.get(`/`,GetAnimals);
 AnimalRoute.get(`/:id`,GetAnimalById);
