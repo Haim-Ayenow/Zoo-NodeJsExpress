@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon node ./Server/server.js",
-    "start":"node ./Server/server.js"
+    "start": "node ./Server/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "gitignore": "^0.7.0",
     "mongoose": "^6.2.4",
     "nodemon": "^2.0.15",
-    "passport": "^0.5.2"
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
   }
 }

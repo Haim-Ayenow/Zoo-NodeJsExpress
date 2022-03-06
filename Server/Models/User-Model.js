@@ -1,12 +1,11 @@
 const mongoose = require(`mongoose`)
 
-const Employee= mongoose.Schema({
-Name:{type:String,required:true},
-Role:{type:String,required:true},
-Email:{type:string,required:true},
-PhoneNumber:{type:String,required:true} 
+const User= mongoose.Schema({
+UserName:{type:String,required:true},
+Email:{type:String,required:true},
+Password:{type:String,required:true}
 }
 ,{timeStamps:true})
 
 
-module.exports=mongoose.model(`Employee`,Employee)
+module.exports=mongoose.model(`User`,User)
